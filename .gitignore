@@ -1,0 +1,13 @@
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+target/
+*.iml
+gen-external-apklibs/
+*.class
+*.apk
+app/out
+app/gen/*
+manifest-merger-*-report.txt

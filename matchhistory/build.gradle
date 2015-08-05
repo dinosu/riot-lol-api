@@ -1,0 +1,13 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':common')
+    compile 'com.google.dagger:dagger:2.0'
+    testCompile 'junit:junit:4.12'
+}
